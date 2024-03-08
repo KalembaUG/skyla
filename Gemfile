@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
+# Gemfile
+ruby File.read('.ruby-version').strip
 
 ruby '2.5.0'
 
