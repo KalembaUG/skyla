@@ -1,0 +1,132 @@
+.footer {
+  padding: 0px 0 30px;
+  color: #fff;
+  min-height: 343px;
+  background-color: #221E1F;
+}
+
+.linkedin {
+  background-image: image-url('linkedin.png');
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+
+.linkedin a {
+  padding-left: 32px;
+  color: white;
+  text-decoration: none;
+}
+
+.linkedin a:hover {
+  text-decoration: underline;
+}
+
+.linkedin-align {
+  margin-top: -3px;
+
+}
+.portfolio {
+  background-image: image-url('portfolio.ico');
+  background-repeat: no-repeat;
+  background-size: 19%;
+}
+
+.portfolio a {
+  padding-left: 32px;
+  color: white;
+  text-decoration: none;
+}
+
+.portfolio a:hover {
+  text-decoration: underline;
+}
+
+.github {
+  background-image: image-url('github.png');
+  background-repeat: no-repeat;
+  background-size: 26%;
+}
+
+.github a {
+  padding-left: 32px;
+  color: white;
+  text-decoration: none;
+}
+
+.github a:hover {
+  text-decoration: underline;
+}
+
+.footer-container {
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-info-container {
+  font-family: BasisGrotesque, Avenir, 
+  Helvetica Neue, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: row;
+  max-height: 230px;
+  justify-content: space-between;
+}
+
+.footer-info-container a {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: no-drop;
+}
+
+.about-info-container {
+  font-family: BasisGrotesque, Avenir, 
+  Helvetica Neue, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: row;
+  max-height: 230px;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.about-info-container a {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: no-drop;
+}
+
+.items-container {
+  padding-top: 50px;
+  // padding-left: 20px;
+}
+
+.items-container h4 {
+  font-weight: 500;
+}
+
+.cities-section {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+}
+
+.footer-items {
+  margin-top: 20px;
+}
+
+.about-items {
+  display: flex;
+  justify-content: space-between;
+  width: 636px;
+  margin-top: 0px;
+}
+
+.cities-margin {
+  margin-left: 25px;
+}
+
+.social-media-size {
+  font-size: 18px;
+  margin: 0px 5px;
+}

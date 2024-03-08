@@ -1,0 +1,171 @@
+.signlog-form {
+  background-image: image-url("defender.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  width: 395px;
+  height: 520px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 30px;
+  font-size: 20px;
+  overflow: hidden;
+  border-radius: 25px;
+  z-index: 0;
+}
+
+.splash {
+  background-image: image-url("gtr.jpg");
+  background-size: cover;
+  height: 85vh;
+  width: 100%;
+  // position: fixed;
+  z-index: -2;
+}
+
+.signlog-modal-form input {
+  border: 1px solid #EBEBEB;
+  border-radius: 4px;
+  height: 24px;
+  padding: 12px 24px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: 100;
+  width: 450px;
+}
+
+.close {
+  color: #F0EFF0;
+  font-size: 20px;
+  z-index: 2;
+  position: fixed;
+  transform: translate(415px, 10px);
+  cursor: pointer;
+}
+
+.header {
+  color: #FEFFFE;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 30px 0 10px;
+}
+
+.sign-in-or {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  font-family: BasisGrotesque, Avenir, 
+  Helvetica Neue, Helvetica, sans-serif;
+}
+
+.form-text {
+  color: #FEFFFE;
+  font-family: BasisGrotesque, Avenir, 
+  Helvetica Neue, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 0;
+}
+
+.form-text input {
+  height: 17px;
+  padding: 6px 0px;
+  font-size: 11px;
+  border: 1px solid #C7C7C7;
+  color: #231F20;
+  width: 100%;
+}
+
+.form-signup {
+  color: #FEFFFE;
+  font-family: BasisGrotesque, Avenir, 
+  Helvetica Neue, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  height: 17px;
+  padding: 3px 0px;
+  font-size: 11px;
+  border: 1px solid #C7C7C7;
+  color: #231F20;
+  width: 100%;
+}
+
+.align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-text-half {
+  color: #FEFFFE;
+  font-family: BasisGrotesque, Avenir, 
+  Helvetica Neue, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  height: 17px;
+  border: 1px solid #C7C7C7;
+  width: 50%;
+}
+
+.submit {
+  background-color: #59D389;
+  color: #FFFFFF;
+  border: 1px solid #59D389;
+  transition: 0.5s all ease;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+  height: 50px;
+}
+
+.demo {
+  background-color: #FEFFFE;
+  color: #221F1E;
+  border: 1px solid #FEFFFE;
+  transition: 0.5s all ease;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+  height: 50px;
+}
+
+.sub {
+  color: #FEFFFE;
+  font-family: BasisGrotesque, Avenir, 
+  Helvetica Neue, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.form-button {
+  background: transparent;
+  color: #FEFFFE;
+  border: 1px solid #FEFFFE;
+  font-weight: bolder;
+  cursor: pointer;
+  margin-left: 1px;
+  margin-left: 17px;
+  padding: 5px 11px;
+  height: 34px;
+  font-size: 16px;
+
+}
+
+.errors {
+  color: #DF4931;
+  font-family: BasisGrotesque, Avenir, 
+  Helvetica Neue, Helvetica, sans-serif;
+  font-size: 13px;
+  text-align: center;
+}
+
+.single-error {
+  color: #DF4931;
+  text-align: center;
+}

@@ -1,0 +1,168 @@
+.image-wrapping {
+  border-radius: 5px;
+  margin-bottom: 11px;
+  overflow: hidden;
+  padding-bottom: 53%;
+  position: relative;
+}
+
+.vehicle-card {
+  color: black;
+  display: block;
+  position: relative
+}
+
+.vehicle-wrapper {
+  height: 180px;
+  overflow: hidden;
+}
+
+.vehicle-container {
+  padding-right: 25px;
+  padding-bottom: 35px;
+  display: block;
+}
+
+.car-index-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 25px;
+  padding-left: 25px;
+  // temporary until I get google maps working
+  justify-content: space-evenly;
+  width: 60%;
+  box-sizing: border-box;
+  height: 100%;
+  overflow: scroll;
+}
+
+.splash-car-index-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 25px;
+  padding-left: 25px;
+  justify-content: space-evenly;
+  max-height: 250px;
+  overflow: hidden;
+}
+
+.car-container {
+  /* object-fit: contain; */
+  position: relative;
+}
+
+.car-container:hover .make-model-card {
+    text-decoration: underline;
+}
+
+.car-index-image {
+  height: 185px;
+  width: 336px;
+  overflow: hidden;
+  border-radius: 6px;
+  transition: all .5s ease;
+}
+
+.car-index-image:hover {
+  opacity: .8;
+}
+
+.car-hover {
+  display: block;
+  position: relative;
+}
+
+.car-hover:hover {
+  background-color: rgba(255,255,255,10%);
+}
+
+.car-card-container {
+  position: relative;
+  padding-right: 25px;
+  padding-bottom: 25px;
+}
+
+.year-make-model {
+  display: flex;
+  align-items: baseline;
+  margin-top: 9px;
+}
+
+.make-model-card {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.5px;
+}
+
+.year-card {
+  padding-left: 5px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.star-card {
+  margin-top: 4px;
+}
+
+.per-day-card {
+  background: #fff;
+  border-radius: 2px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  margin-top: -21px;
+  padding: 7px 5px 5px;
+  position: absolute;
+  right: 10px;
+  transform: translateY(-100%);
+  font-family: BasisGrotesque, Avenir, Helvetica Neue, Helvetica, sans-serif;
+  display: inline-flex;
+}
+
+.card-price {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.index-page-container {
+  display: flex;
+  height: calc(100vh - 120px);
+}
+
+.splash-index-page-container {
+  margin-top: 0px;
+}
+
+.empty-result-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 75px;
+}
+
+.empty-result-header {
+  font-family: Plantin,AmericanTypewriter-Condensed,Times New Roman,serif;
+  font-size: 36px;
+  line-height: 36px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.empty-result-details {
+  font-family: BasisGrotesque, Avenir, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.empty-result-img {
+  background-image: image-url("no-result.png");
+  background-position: 0 0;
+  background-size: 122px 122px;
+  display: inline-block;
+  height: 122px;
+  margin-bottom: 30px;
+  text-align: center;
+  width: 122px;
+}

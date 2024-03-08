@@ -1,0 +1,138 @@
+.header-link {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-search-links {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.navbar {
+  height: 60px;
+  background-color: #221F1F;
+  color: #FEFFFE;
+  // sticky navbar below
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.navbar > ul {
+  display: inline;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px auto;
+  width: 100%;
+  height: 60px;
+}
+
+.right-nav {
+  display: flex;
+  justify-content: space-around;
+  min-width: 300px;
+  position: relative;
+  top: 14px;
+}
+.nav-button {
+  border: none;
+  color: #FEFFFE;
+  background: #221F1F;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+button:hover{
+  text-decoration:underline;
+}
+
+input:hover{
+  text-decoration:underline;
+}
+
+.nav-item {
+  background: #221F1F;
+  color: #FEFFFE;
+  border: 1px solid #FEFFFE;
+  font-weight: bold;
+  cursor: pointer;
+  height: 26px;
+  margin-top: 2px;
+  font-size: 13px;
+  padding: 3px 10px 10px 10px;
+}
+
+.navbar-logo {
+  background-image: image-url("flexo.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 72px;
+  height: 42px;
+  padding-left: 24px;
+  padding-right: 24px;
+  position: relative;
+  padding-bottom: 9px;
+}
+
+.nav-item-list > li {
+  position: relative;
+}
+
+.profile {
+  background-image: image-url('profile_icon.png');
+  background-size: cover;
+  height: 32px;
+  width: 32px;
+  margin: auto;
+  // padding-right: 25px;
+  position: relative;
+  top: 12px;
+  cursor: pointer;
+}
+
+// .dropbtn {
+//   background-size: cover;
+//   background-color: transparent;
+//   border: none;
+//   top: 10px;
+// }
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  height: 48px;
+  width: 48px;
+  bottom: 13px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin: 27px 0 0 0;
+  // padding-top: 22px;
+}
+
+.dropdown-content button {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background-color: white;
+  width: 80px;
+}
+
+.dropdown-content.active {
+  display: block;
+}
+

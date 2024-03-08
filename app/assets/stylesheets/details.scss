@@ -1,0 +1,241 @@
+.details {
+  font-family: BasisGrotesque, Avenir, Helvetica Neue, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  // border: 1px solid black;
+  height: -webkit-fill-available;
+}
+
+.detail-side {
+  width: 940px;
+  // border: 1px solid black;
+  margin-top: 20px;
+  position: relative;
+}
+.info {
+  // border: 1px solid black;
+  width: 620px;
+  float: left;
+}
+
+.side {
+  width: 300px;
+  margin-left: 20px;
+  position: absolute;
+  right: 0;
+  top: -90px;
+  padding-bottom: 24px;
+}
+
+.all-info {
+  width: 100%;
+  // border: 1px solid black;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.heading {
+  // border: 1px solid black;
+  width: 150px;
+  float: left;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 3px;
+}
+
+.heading h2{
+  font-size: 13px;
+  font-weight: bold;
+  color: #5C5D5C;
+  padding-right: 6px;
+  padding-top: 4px;
+}
+
+.car-detail {
+  // border: 1px solid black;
+  width: 467px;
+  float: left;
+}
+
+.more-features {
+  // border: 1px solid black;
+  width: 467px;
+  float: left;
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: -4px;
+}
+
+.description-text {
+  // border: 1px solid black;
+  width: 373px;
+  float: left;
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 3px;
+}
+
+.description-text h2 {
+  // border: 1px solid black;
+  font-size: 16px;
+  font-weight: 600;
+  color: #221F1E;
+}
+
+.car-width {
+  width: 100%
+}
+
+.all-features {
+  // border: 1px solid black;
+  display: flex;
+  flex: 0 1 auto;
+  flex-flow: row wrap;
+  width: 467px;
+}
+
+.features {
+  width: 50%;
+  margin-bottom: 8px;
+  margin-top: 3px;
+  display:flex;
+}
+
+.owner-name {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.make-model {
+  font-family: Freight, HoeflerText-Black, Times New Roman, serif;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+.year {
+  font-family: Freight, HoeflerText-Black, Times New Roman, serif;
+  font-size: 30px;
+  padding-left: 2px;
+}
+
+.single-feature {
+  padding-top: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #221F1E;
+}
+
+.door-icon {
+  background-image: image-url("door.png");
+  height: 30px;
+  display: inline-block;
+  width: 30px;
+  background-repeat: no-repeat;
+  margin: 0px 5px;
+}
+
+.mpg-icon {
+  background-image: image-url("mpg.png");
+  height: 30px;
+  display: inline-block;
+  width: 30px;
+  background-repeat: no-repeat;
+  margin: 0px 5px;
+}
+
+.seat-icon {
+  background-image: image-url("seat.png");
+  height: 30px;
+  display: inline-block;
+  width: 30px;
+  background-repeat: no-repeat;
+  margin: 0px 5px;
+}
+
+.gas-icon {
+  background-image: image-url("gas.png");
+  height: 30px;
+  display: inline-block;
+  width: 30px;
+  background-repeat: no-repeat;
+  margin: 0px 5px;
+}
+
+.bluetooth-icon {
+  background-image: image-url("bluetooth.png");
+  height: 30px;
+  display: inline-block;
+  width: 30px;
+  background-repeat: no-repeat;
+  margin: 0px 5px;
+}
+
+.auto-icon {
+  background-image: image-url("auto.png");
+  height: 30px;
+  display: inline-block;
+  width: 30px;
+  background-repeat: no-repeat;
+  margin: 0px 5px;
+}
+
+.aux-icon {
+  background-image: image-url("aux.png");
+  height: 30px;
+  display: inline-block;
+  width: 30px;
+  background-repeat: no-repeat;
+  margin: 0px 5px;
+}
+
+.backup-icon {
+  background-image: image-url("backup.png");
+  height: 30px;
+  display: inline-block;
+  width: 30px;
+  background-repeat: no-repeat;
+  margin: 0px 5px;
+}
+
+.gps-icon {
+  background-image: image-url("gps.png");
+  height: 30px;
+  display: inline-block;
+  width: 30px;
+  background-repeat: no-repeat;
+  margin: 0px 5px;
+}
+
+.heated-icon {
+  background-image: image-url("heated.png");
+  height: 30px;
+  display: inline-block;
+  width: 30px;
+  background-repeat: no-repeat;
+  margin: 0px 5px;
+}
+
+.manual-icon {
+  background-image: image-url("manual.png");
+  height: 30px;
+  display: inline-block;
+  width: 30px;
+  background-repeat: no-repeat;
+  margin: 0px 5px;
+}
+
+.usb-icon {
+  background-image: image-url("usb.png");
+  height: 30px;
+  display: inline-block;
+  width: 30px;
+  background-repeat: no-repeat;
+  margin: 0px 5px;
+}
+
+.fas {
+  font-size: 15px;
+  color: #8F63F3;
+}
