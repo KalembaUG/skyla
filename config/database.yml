@@ -83,3 +83,7 @@ production:
   database: flexo_production
   username: flexo
   password: <%= ENV['FLEXO_DATABASE_PASSWORD'] %>
+
+production:
+  <<: *default
+  url: <%= ENV['DATABASE_URL'] %>
