@@ -1,5 +1,6 @@
 require 'uri'
 require_relative 'boot'
+require 'rack/cors'
 
 require 'rails/all'
 
@@ -16,5 +17,12 @@ module Flexo
     # Application configuration can go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
+  end
+end
+
+config.middleware.use "Rack::Cors" do
+  allow do
+    origins '*'
+    resource '*', :headers => :any, :methods => [:get, :post, :delete, :put, :options]
   end
 end

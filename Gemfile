@@ -5,6 +5,8 @@ ruby File.read('.ruby-version').strip
 
 ruby '2.5.0'
 
+
+gem 'rack-cors', '~> 0.1.1', require: 'rack/cors'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.2'
 # Use postgresql as the database for Active Record
