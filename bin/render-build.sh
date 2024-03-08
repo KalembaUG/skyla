@@ -11,4 +11,4 @@ npm install
 bundle exec rake db:migrate
 # postbuild
 # cp -a build/. public/
-rails server
+# rails server
